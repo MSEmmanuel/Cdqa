@@ -1,0 +1,30 @@
+Defects for the user stories provided
+
+#1: Date parameters are not being passed into Today's Events Featured Events
+Steps to Replicate:
+Select a date from Calendar widget
+Click Today's events 
+Expected Behavior: Events are to dispalyed if there are any present for that day
+Observed Behavior: Events are not displayed though they are present for that day
+Input to test: Select Dec 1st 2021 
+
+#2: Date parameters are not being passed into Featured Events
+Steps to Replicate:
+Select a date from Calendar widget
+Click Featured events 
+Expected Behavior: Upcoming Events for that weeks are to displayed
+Observed Behavior: Upcoming Events  are not displayed though they are present 
+Input to test: Select Nov 20 2021 
+
+#3: Upcoming events are not based on the week 
+Per user stories provided, a week of upcoming events are to be displayed
+Steps to Replicate:
+Select Date as Aug 1 2021 and filter by Organization as "Cantor Arts Center"
+Verify the event dates
+Expected Behavior: A week of upcoming events are to be displayed
+Observed Behavior : I am able to view records from Aug 2 2021 to Mar 4 2022 for that event
+
+#4: "Organized by" is displayed instead of Organization in Event details page
+Per user story, It has to be "Organization"
+Steps to Replicate:
+Select an event and navigate to details page
